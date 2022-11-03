@@ -9,6 +9,7 @@ import org.example.model.ContaCorrente;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main {
@@ -149,6 +150,8 @@ public class Main {
         }catch (DadosInvalidosExcepiton e){
             e.printStackTrace();
         }catch (SaldoInvalidoException e){
+            e.printStackTrace();
+        }catch (NoSuchElementException e){
             e.printStackTrace();
         }catch (Exception e){
             e.printStackTrace();
