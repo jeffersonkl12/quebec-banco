@@ -3,10 +3,6 @@ package org.example;
 import org.example.exception.DadosInvalidosExcepiton;
 import org.example.exception.SaldoInvalidoException;
 import org.example.model.Banco;
-import org.example.model.Conta;
-import org.example.model.ContaCorrente;
-
-import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.NoSuchElementException;
