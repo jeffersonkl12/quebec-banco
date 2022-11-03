@@ -23,7 +23,7 @@ public class Main {
         Integer agencia,operacao,numero;
         try {
             while (true) {
-                System.out.println("==================\n" +
+                System.out.println("======================================\n" +
                         "----Sistema Banco Do Proletariado----\n");
                 if (!cpf.isBlank() && !cpf.isEmpty() && senha != null && !senha.isBlank()) {
                     System.out.println("Escolha uma das nossas operacoes: \n" +
